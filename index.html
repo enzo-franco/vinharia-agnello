@@ -1,11 +1,121 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinheria Agnello</title>
+    <link rel="stylesheet" href="src\css\styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Vinheria Agnello</h1>
+      <p>Tradição e qualidade direto para sua casa</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="src/pages/pagina1.html">pagina1</a></li>
+        <li><a href="src/pages/pagina2.html">pagina2</a></li>
+        <li><a href="src/pages/pagina3.html">pagina3</a></li>
+        <li><a href="src/pages/pagina4.html">pagina4</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="inicio" class="banner">
+        <h2>Descubra o vinho ideal para cada momento</h2>
+        <img src="src/assets/imgs/imgvinho2.png" alt="Imagem de vinhos" />
+        <p>Receba recomendações personalizadas como em nossa loja física.</p>
+      </section>
+
+      <section id="tipos-vinhos">
+        <h2>Tipos de Vinhos</h2>
+        <p>Conheça os principais tipos disponíveis:</p>
+
+        <ul>
+          <li>Vinho Tinto</li>
+          <li>Vinho Branco</li>
+          <li>Vinho Rosé</li>
+        </ul>
+      </section>
+
+      <section id="tabela">
+        <h2>Harmonização Básica</h2>
+        <table>
+          <tr>
+            <th>Tipo de Vinho</th>
+            <th>Sobre</th>
+          </tr>
+          <tr>
+            <td>Tinto</td>
+            <td>
+              Tipo mais consumido no Brasil, oferecendo grande variedade de
+              gostos e estilos, geralmente consumido junto de
+              <b>carnes vermelhas</b>.
+            </td>
+          </tr>
+          <tr>
+            <td>Branco</td>
+            <td>
+              Possuem um sabor frutado e uma coloração mais dourada, ótimo para
+              acompanhar comidas leves como <b>queijos</b>, <b>peixes</b> e
+              <b>frutos do mar</b>.
+            </td>
+          </tr>
+          <tr>
+            <td>Rosé</td>
+            <td>
+              Considerado ideal para o verão, harmonizando muito bem com o clima
+              tropical brasileiro, combina bem com <b>massas leves</b>.
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <h2>Aprenda sobre vinhos</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Ac559iPwbEs?si=nHK3WEJ3KxU85MM2"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section id="contato">
+        <h2>Entre em contato</h2>
+
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensagem">Mensagem:</label>
+          <input type="text" id="mensagem" name="mensagem" />
+
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>2026 Vinheria Agnello | Todos os direitos reservados</p>
+    </footer>
+  </body>
 </html>
