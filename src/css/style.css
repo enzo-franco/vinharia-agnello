@@ -241,4 +241,13 @@
     font-size: 12px;
     border-radius: 5px;
     }
-    
+
+.img-vertical  {  
+    width: 250px !important;
+    height: auto !important;
+         }   
+
+.img-horizontal  {  
+    width: 400px !important;
+    height: 200px !important;
+         }   
