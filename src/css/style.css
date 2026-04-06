@@ -189,3 +189,56 @@
     border: 4px solid #7a1f2b;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.produto {
+    width: 250px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    transition: 0.3s;
+      border: 1px solid rgba(0,0,0,0.1);
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.produto img {
+    width: 50;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.preco-antigo {
+    text-decoration: line-through;
+    color: gray;
+    display: block;
+}
+
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+    color: #7a1f2b;
+}
+
+.desconto {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
