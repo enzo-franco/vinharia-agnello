@@ -129,10 +129,6 @@
     text-align: left;
 }
 
-.tabela-harmonizacao tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
 .explicacao p {
     line-height: 1.8;
     color: #333;
@@ -161,10 +157,6 @@
     border-radius: 8px;
     font-weight: bold;
     transition: 0.3s;
-}
-
-.link-video a:hover {
-    background-color: #4b0f1c;
 }
 
 .dica-container {
@@ -205,11 +197,6 @@
     position: relative;
     transition: 0.3s;
       border: 1px solid rgba(0,0,0,0.1);
-}
-
-.produto:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .produto img {

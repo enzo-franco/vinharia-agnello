@@ -1,0 +1,32 @@
+/* pseudo-classes que já existiam no style.css */
+.tabela-harmonizacao tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.link-video a:hover {
+    background-color: #4b0f1c;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* novas pseudo-classes */
+
+nav ul li a:hover {
+    background-color: #ac2444;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-bottom: 2px solid #ffd1dc;
+}
+
+input:required,
+textarea:required {
+    border-left: 4px solid #ac2444;
+}
+
+input:invalid,
+textarea:invalid {
+    border-color: red;
+}
