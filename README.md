@@ -63,3 +63,32 @@ O site é composto pelas seguintes páginas:
 ## ✅ Considerações Finais
 
 Este projeto foi desenvolvido com foco na experiência do usuário, buscando oferecer uma navegação simples, clara e próxima da realidade da loja física da Vinheria Agnello.
+
+📝 Contribuições Check-Point 02
+Gustavo Roberto Martins
+
+1 pseudo-classe: :hover nos links e títulos
+1 pseudo-elemento: ::after nos títulos h2
+1 transição: suavização nos efeitos dos h2 e menu
+1 transformação: scale nos títulos ao passar o mouse
+
+Renato Mendes Ruiz
+
+2 pseudo-classes: :hover e :nth-child
+1 pseudo-elemento: ::after
+1 animação com @keyframes: animação de entrada dos produtos
+2 transformações: translateY e scale
+1 transição: suavização nos efeitos de hover
+
+Enzo Franco Rodrigues da Silva
+
+Matheus Soares Amorim
+
+2 pseudo-elementos: ::before, ::after, ::first-letter e ::selection na página de harmonização
+2 animações com @keyframes: entradaSuave (fade-in das seções) e pulsoBorda (borda da imagem)
+1 transformação: scale + rotate na imagem de harmonização ao hover
+
+Antonio do Nascimento Ferreira de Sousa
+
+Criação do arquivo efeitos.css e link em todas as páginas
+Movidos pseudo-classes do style.css para o efeitos.css e adição de novas pseudo-classes
