@@ -144,3 +144,47 @@ section h2:hover {
     background-color: #7a1f2b;
     color: #fff;
 }
+
+/* Animação 1: entrada suave das seções ao carregar a página */
+@keyframes entradaSuave {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+ 
+.harmonizacao {
+    animation: entradaSuave 0.8s ease forwards;
+}
+ 
+.explicacao {
+    animation: entradaSuave 0.8s ease 0.2s forwards;
+    opacity: 0;
+}
+ 
+.video-harmonizacao {
+    animation: entradaSuave 0.8s ease 0.4s forwards;
+    opacity: 0;
+}
+ 
+/* Animação 2: pulso na borda da imagem de harmonização */
+@keyframes pulsoBorda {
+    0%   { box-shadow: 0 0 0 0 rgba(122, 31, 43, 0.4); }
+    50%  { box-shadow: 0 0 0 8px rgba(122, 31, 43, 0.0); }
+    100% { box-shadow: 0 0 0 0 rgba(122, 31, 43, 0.4); }
+}
+ 
+.imagem-dica img {
+    animation: pulsoBorda 2.5s ease-in-out infinite;
+}
+ 
+/* Transformação extra: scale + rotate na imagem ao hover */
+.imagem-dica img:hover {
+    transform: scale(1.04) rotate(1deg);
+    transition: transform 0.4s ease;
+}
+ 
