@@ -105,3 +105,42 @@ section h2:hover {
     transform: scale(1.05);
     letter-spacing: 1px;
 }
+
+/* ::before — ícone decorativo antes dos títulos das seções de harmonização */
+.harmonizacao h2::before,
+.explicacao h2::before,
+.video-harmonizacao h2::before {
+    content: "🍷 ";
+    font-size: 1.1em;
+}
+ 
+/* ::after — linha decorativa vermelha abaixo dos títulos */
+.harmonizacao h2::after,
+.explicacao h2::after,
+.video-harmonizacao h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #7a1f2b;
+    margin: 8px auto 0 auto;
+    border-radius: 2px;
+}
+ 
+/* ::first-letter — destaque na primeira letra dos parágrafos de dica */
+.texto-dica p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #7a1f2b;
+    float: left;
+    line-height: 1;
+    margin-right: 4px;
+}
+ 
+/* ::selection — cor de seleção de texto nas seções de harmonização */
+.harmonizacao ::selection,
+.explicacao ::selection,
+.video-harmonizacao ::selection {
+    background-color: #7a1f2b;
+    color: #fff;
+}
