@@ -95,3 +95,13 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+section h2 {
+    transition: all 0.4s ease;
+    cursor: default;
+}
+section h2:hover {
+    color: #8b0000;
+    transform: scale(1.05);
+    letter-spacing: 1px;
+}
