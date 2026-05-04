@@ -252,4 +252,41 @@ section h2:hover {
 .lista-estilizada li::before {
     content: "🍷 ";
 }
+
+.produto:nth-child(even) {
+    background-color: #fff8f8;
+}
+ 
+h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #7a1f2b;
+    margin-top: 5px;
+}
+ 
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+ 
+.produto {
+    animation: aparecer 0.5s ease-in-out;
+}
+ 
+.produto {
+    transition: 0.3s;
+}
+ 
+.produto img:hover {
+    transform: scale(1.08);
+    transition: 0.3s;
+}
  
