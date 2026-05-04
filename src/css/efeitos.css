@@ -8,8 +8,8 @@
 }
 
 .produto:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 /* novas pseudo-classes */
